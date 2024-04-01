@@ -58,7 +58,7 @@ Math needed for js
 
 // // To know which types of var it is
 // var passed = false;
-// // in the console.log use type of before the var name
+// // in the console.log use typeof before the var name
 // console.log(typeof passed);
 
 
