@@ -22,11 +22,7 @@
 
 // some comparision using var
 
-// var chickenEgg = 10;
-// var duckEgg = 15;
-
-// var egg = duckEgg >= chickenEgg;
-// console.log(egg);
+// var chickenEgg = 10;  
 
 // uses of == and ===
 // == its detect the value not data type.
@@ -41,6 +37,9 @@
 // if(1<2){
 //     console.log('1 is less then 2')
 // }
+// if(3<2){
+//     console.log('this is true');
+// }
 
 
 // if condition example using var
@@ -49,6 +48,14 @@
 // if(biriyaniPrice>200){
 //     console.log("biriyani kheye,70taka riksha vara ar 30taka bachbe")
 // }
+
+
+// var duckEgg = 26;
+// if(duckEgg > 25){
+//     console.log('Hasher Dim Khabo Re')
+// }
+
+
 
 // if and else condition example
 // var weight =40;
@@ -59,6 +66,14 @@
 // }
 // else {
 //     console.log('na mama parmu nare');
+// }
+
+// var duckEgg = 21;
+// if(duckEgg >= 25){
+//     console.log('mama hasher dim khabo');
+// }
+// else{
+//     console.log('Taka Short mama murgir dim daw');
 // }
 
 
@@ -73,7 +88,19 @@
 // const isCar = true;
 // const place = 'brahmanbaria';
 
-  
+// const luxury = 1620;
+// const jamboo = 1900;
+// const brand535 = 970;
+// const isCoilIsgood = true;
+
+// if (luxury >= 1600 || jamboo >= 1800 && isCoilIsgood == true)
+//     {
+//     console.log('amake luxury or jamboo daw 1000cutton')
+// }
+// else {
+//     console.log('amake 535Brand daw');
+// }
+
 // if (salary > 20000 && isGraduate == true){
 //     console.log('hurray biar boyos hoise')
 // }
@@ -93,7 +120,7 @@
 //  17_5 Multi Level If-Else If-Else Condition
 
 
-// const price = 2000;
+// const price = 5000;
 
 // if(price >=  10000){
 //     // 10% discount
@@ -115,6 +142,31 @@
 // }
 // else{
 //     console.log(price);
+// }
+
+// const luxuryPrice = 1500000;
+
+// // 10% discount
+// if(luxuryPrice >= 1500000){
+//     const discount = luxuryPrice * 10/100;
+//     const totalPay = luxuryPrice - discount;
+//     console.log(totalPay);
+// }
+// // 7.5% discount
+// else if(luxuryPrice >= 1000000){
+//     const discount = luxuryPrice * 7.5/100;
+//     const totalPay = luxuryPrice - discount;
+//     console.log(totalPay);
+// }
+// // 5% discount
+// else if(luxuryPrice >= 500000){
+//     const discount = luxuryPrice * 5/100;
+//     const totalPay = luxuryPrice - discount;
+//     console.log(totalPay);
+// }
+// // No discount
+// else{
+//     console.log('Sorry if you pay upto 5lakh, you can get offers')
 // }
 
 
@@ -155,6 +207,9 @@
 // const age = 17;
 
 // age >= 18 ? console.log('you can vote') : console.log('sleep plz'); 
+// const age = 19;
+// age >= 18 ? console.log('vote dite parbe') : console.log('opekkha koro');
+
 
 
 // const isLeader = true;
@@ -169,3 +224,43 @@
 // }
 
 // price = isLeader === true ? console.log(0) : console.log(price + 500);
+
+// let govMoney = 500;
+// const isLeader = false;
+
+// if (isLeader === false){
+//     console.log('0')
+// }
+// else {
+//     govMoney = govMoney + 500;
+//     console.log(govMoney)
+// }
+
+// Ternary 
+// isLeader === false ? console.log('0') : console.log(govMoney + 500);
+
+// 17_8 (Advanced) Logical Not Operator
+
+// you can write binary data type without any conditions
+
+// const ifHscInScience = false;
+
+// // for true data types
+// if(ifHscInScience) {
+//     console.log('you can apply for cse')
+// }
+// else{
+//     console.log('complete diploma in computer science, then you can apply');
+// }
+
+// for false data types
+// const isCar = false;
+
+// if(!isCar){
+//     console.log('this is my dream');
+// }
+// else{
+//     console.log('lets drive');
+// }
+
+// if you use !!isCar, that means its gonn

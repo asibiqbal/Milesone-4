@@ -45,20 +45,23 @@ Math needed for js
 
 // there is various types of variable , such as - Numeric, sting , boolen
 
+
 // String
 // var name = "Inara Afroze";
 // console.log(name);
 
+
 // // Boolean
 // var youAreRich = false;
 // console.log(youAreRich);
+
 
 // Numeric
 // var age = 28;
 
 // // To know which types of var it is
 // var passed = false;
-// // in the console.log use typeof before the var name
+// in the console.log use typeof before the var name
 // console.log(typeof passed);
 
 
@@ -68,6 +71,7 @@ Math needed for js
 // The data types are
 // String, numeric , boolean , undefined , null
 
+
 // // u can use snake case 
 // var my_school_name = "Joy Govinda High School";
 // // also use camelCase
@@ -76,7 +80,7 @@ Math needed for js
 // var MySchoolName = "Joy Govinda High School";
 
 
-// u cant us js keywords in the var name
+// u cant use js keywords in the var name
 // such as var, number, boolean, true, false etc.
 
 
@@ -89,8 +93,13 @@ Math needed for js
 // var number =parseInt ("16");
 // console.log(typeof number);
 
+
+// var number = "16";
+// // number = parseInt ("16");
+// console.log(typeof number);
+
 // For decimal numbers use parseFloat
-// var decimal =parseFloat ('22.5');
+// var decimal =parseInt ('22.5');
 // console.log(decimal);
 
 // When console shows NaN(Not A Nmbr)
@@ -102,12 +111,19 @@ Math needed for js
 // var second = 0.2;
 // var total = first + second;
 // console.log(total);
-// // some time u have to faces some problem. there is a big decimal number, to fixed this problem, and how many decimal numbers u want -
+// // some times u have to faces some problem. there is a big decimal number, to fixed this problem, and how many decimal numbers u want -
 // console.log(total.toFixed(2));
 // but there is a problem - when u use tofixed, the number the will convert into string , u will see in future , how u contvert string to number.
 // var nm = parseFloat(total.toFixed(2));
 // console.log(nm);
 
+
+// var numberOne = 0.1;
+// var numberTwo = 0.2;
+// var totalNumber = numberOne + numberTwo;
+// var finalDecimal = parseInt(totalNumber).toFixed(2);
+// console.log(typeof finalDecimal);
+// console.log(finalDecimal);
 
 // 16-7 Introduction To Arithmetic Operators
 // U can add, substract, multiplication, divide vars. 
