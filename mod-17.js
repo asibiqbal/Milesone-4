@@ -432,3 +432,88 @@ also, write it using ternary operator.
 // else{
 //     console.log(result)
 // }
+
+
+// 17.5-1
+// how u declare array
+// const numbers = [1, 2, 3, 4];
+// console.log(numbers);
+
+// 17-5-2
+// To know how many data are in the array.
+// console.log(numbers.length);
+
+// to find specifice data
+// console.log(numbers[1]);
+// to change specifice value of a data
+// numbers[2] = 20;
+// console.log(numbers);
+// const secondValue = numbers[1];
+// console.log(secondValue);
+
+
+// 17-5-3
+// const numbers = [1, 2, 3, 4];
+// To add value in the last
+// numbers.push(5);
+// console.log(numbers); 
+
+// To add value in the first
+// const numbers = [1, 2, 3, 4];
+// numbers.unshift(0);
+// console.log(numbers);
+
+// To remove value from the last
+// numbers.pop();
+// console.log(numbers);
+
+// To remove value from the first
+// const numbers = [1, 2, 3, 4];
+// numbers.shift(0);
+// console.log(numbers);
+
+// using variable
+// const removeNumber = numbers.pop();
+// console.log(removeNumber);
+
+
+// 17-5-4 includes, join , concat
+
+// To check a value is in or out
+// const allName = ['Asib', 'Zidan', 'Rabby', 'Mahabub'];
+// const checkName = allName.includes('Mahabub');
+// console.log(checkName);
+
+// if(allName.includes('Mahabub')){
+//     console.log('Mahabub Jilapi Khay');
+// }
+// else{
+//     console.log('biri kha');
+// }
+
+// find index of an array
+// const allName = ['Asib', 'Zidan', 'Rabby', 'Mahabub'];
+// const space = allName.indexOf('Mahabub');
+// console.log(allName , space);
+
+
+// const coils = ['Luxury', 'Deluxe', 'Jamboo', '535Brand' ];
+// const brand535 = coils.indexOf('535Brand');
+// // if the value in array dosen't exist, it will show -1
+// console.log(brand535);
+
+
+// to use symbol after array value
+// const coils = ['Luxury', 'Deluxe', 'Jamboo', '535Brand' ];
+// const symbol = coils.join(',');
+// console.log(symbol);
+
+// add to arrow data in one line
+// const coils1 = ['Luxury', 'Deluxe', 'Jamboo', '535Brand' ];
+// const coils2 = ['T-20gold', 'king', 'china', 'luxury' ];
+// const join = coils1.concat(coils2);
+// console.log(join);
+
+
+
+
