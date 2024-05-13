@@ -199,6 +199,25 @@
 //     console.log('no free for age 8-39');
 // }
 
+// 17-6 Nested If else conditions
+// const money = 9;
+
+// if(money >= 300){
+//     console.log('ei takay sumaiyar kacchi khete parbo');
+// }
+// else{
+//     if(money >= 200){
+//         console.log('Ma hoteler gril ar coke hoye jabe');
+//     }
+//     else{
+//         if(money >=10){
+//             console.log('kopale beshi kichu nei, cha ruti chara');
+//         }
+//         else{
+//             console.log('pocket faka basay chole jai.')
+//         }
+//     }
+// }
 
 // 17_7 (Advanced )If-Else Shorthand Ternary Operator
 // simple ternary
@@ -263,4 +282,153 @@
 //     console.log('lets drive');
 // }
 
-// if you use !!isCar, that means its gonn
+// !!iscar = first ! for false  and second ! for true , that means !!isCar data type is true.
+
+// 17_9 Home Work And Making Decisions In Your Code
+// Go to proggramming hero github page and search - conditional task
+// Read making decisions in your code - conditionals from mdn.
+
+
+/***
+task one
+Free Drinks
+    - Burger more than 500tk: free Coke
+    - Else Coke: 30tk
+*/
+
+// const burgerPrice = 600;
+
+// if(burgerPrice >= 500){
+//     console.log('You can get coke, free');
+// }
+// else(
+//     console.log(' you pay 30 taka more for a coke.')
+// )
+
+
+/*** 
+Task Two
+BMI Calculator and Health Category
+
+Create a JavaScript program that calculates the Body Mass Index (BMI) and assigns a health category based on the BMI value. Use nested if-else statements to determine the health category.
+
+    - Calculate BMI using the formula: BMI = weight (kg) / (height (m))^2
+    - BMI < 18.5, you are underweight.
+    - BMI >= 18.5 and BMI <=24.9, you are normal.
+    - BMI >=25 and BMI <= 29.9, you are overweight.
+    - Otherwise, you are obese.
+
+*/
+
+// const weight = 90;
+// const height = 5.5;
+// // const bmiValue = weight / height ^ 2;
+// const bmiValue = 8;
+// // console.log(bmiValue);
+
+// if(bmiValue < 18.5){
+//     console.log('you are underweight');
+// }
+// else if(bmiValue >= 18.5 && bmiValue <=24.9){
+//     console.log('You are normal')
+// }
+// else if(bmiValue >= 25 && bmiValue <=29.9){
+//     console.log('you are overweighted')
+// }
+// else{
+//     console.log('Tumi dine dine mota hoye jaccho,,, Ojon komaw.')
+// }
+
+
+// task three
+/***
+
+Grade Calculator
+
+Create a simple JavaScript program that takes a student's score as input and returns their corresponding grade based on the following grading scale:
+
+    A: 90-100
+    B: 80-89
+    C: 70-79
+    D: 60-69
+    F: 0-59
+
+***/
+
+// const mark = 59;
+
+// if (mark >= 90 && mark <= 100){
+//     console.log('you get A')
+// }
+// else if (mark >= 80 && mark <= 89){
+//     console.log('you get B')
+// }
+// else if (mark >= 70 && mark <= 79){
+//     console.log('you get C')
+// }
+// else if (mark >= 60 && mark <= 69){
+//     console.log('you get D')
+// }
+// else{
+//     console.log('Fail')
+// }
+
+
+// Task Four
+/***
+
+if you get more then 80 then inside your friend score. 
+    If your friend get more than 80. then go for a lunch. 
+    if your friend get below 80 but greater than or equal 60 then tell your friend, good luck next time. 
+    if your friend get less than 60 but more than or equal to 40 then, keep your friend's message unseen.
+    if your friend get less than 40, block your friend
+if you get less than 80 go to home and sleep and act sad
+
+Note: 
+use nested if-else-if-else
+*/
+// const friendMark = 39;
+
+// if(friendMark >= 80){
+//     console.log('Go for a lunch with friends');
+// }
+// else{
+//     if(friendMark >= 60 && friendMark <= 79){
+//         console.log('Good Luck Next Time');
+//     }
+//     else{
+//         if(friendMark >= 40 && friendMark <= 59){
+//             console.log('Not seen my friends msg');
+//         }
+//         else{
+//             console.log('block my friend');
+//         }
+//     }
+// }
+
+
+// Task Five
+/***
+
+you have two numbers in two variables, called: num1, num2
+
+now declare a variable called result. 
+if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable result will be the sum of num1 and num2.
+
+write a simple if-else. 
+
+also, write it using ternary operator.
+
+ */
+
+// const num1 = 90;
+// const num2 = 60;
+// const result = num1 + num2;
+
+// if(num1>num2){
+//     result = num1 *2;
+//     console.log(result);
+// }
+// else{
+//     console.log(result)
+// }
