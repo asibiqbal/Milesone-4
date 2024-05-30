@@ -36,6 +36,10 @@ Math needed for js
 // var is type of storage.
 
 // You can change var value
+
+
+
+
 // var age = 17;
 // age = 27;
 // console.log(age);
@@ -130,8 +134,8 @@ Math needed for js
 // reminder ( ভাগশেষ)
 // var egg = 10;
 // var quantity = 7;
-// var baki = egg % quantity;
-// console.log(baki);
+// var borrow = egg % quantity;
+// console.log(borrow);
 
 // to change value
 // var number = 500;

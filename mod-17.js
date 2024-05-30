@@ -93,7 +93,7 @@
 // const brand535 = 970;
 // const isCoilIsgood = true;
 
-// if (luxury >= 1600 || jamboo >= 1800 && isCoilIsgood == true)
+// if (luxury >= 1600 || jamboo >= 1880 && isCoilIsgood == true)
 //     {
 //     console.log('amake luxury or jamboo daw 1000cutton')
 // }
@@ -201,6 +201,7 @@
 
 // 17-6 Nested If else conditions
 // const money = 9;
+   
 
 // if(money >= 300){
 //     console.log('ei takay sumaiyar kacchi khete parbo');
