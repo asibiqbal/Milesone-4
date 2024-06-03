@@ -184,3 +184,157 @@ Generate a multiplication table for number 9
 // for(i = 9; i <= 90 ; i += 9){
 //     console.log(i);
 // }
+
+
+// 18_6 Different Ways To Use Loop
+// for find even number - 
+// i % 2 === 0;
+// for find odd number - 
+// i % 2 === 1;
+//or..  i % 2 !== 0;
+// 
+
+// for (i = 1 ; i <= 30; i++){
+//     if (i % 5 === 0){
+//         console.log('give me the divisible numbers by 5' , i)
+//     }
+// }
+// for (i = 1 ; i <= 30; i++){
+//     if (i % 5 === 0){
+//         console.log('give me the divisible numbers by 5' , i)
+//     }
+// }
+
+// sum = 0;
+// for (i = 1 ; i <= 20; i++){
+//     if (i % 3 === 0){
+//         console.log('give me the divisible numbers by 5' , i);
+//         sum = sum + i;
+//     }
+   
+// }
+// console.log(sum);
+
+
+
+// 18_7 When To Use A Break And Continue
+
+// Break
+
+// for (i = 0; i <= 150; i++){
+//     console.log(i);
+//     if(i >= 5){
+//         break;
+//     }
+// }
+
+
+// reverse Break with while loop
+
+// let i = 64;
+
+// while(i > 50){
+//     if( i < 58){
+//         break;
+//     }
+//     console.log(i);
+//     i--;
+// }
+
+// Continue - skip (that means continue are skip the value you declared.)
+// for(i = 1; i <= 10 ; i++){
+//     if(i<2){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// for(i = 1; i <= 30 ; i++){
+//     if(i % 3 === 0){
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// Break - Stop
+
+// 18_8 (Optional) Introduction To Do While Loop
+// skip
+
+// 18_9 Difference Between Types Of Loops Module Summary
+
+// When we use while loop
+// we use while loop until a condition is done.
+// When we use for loop
+// we use for loop, when we know, certain number of condition. মানে নিদির্ষ্ট সংখ্যক লুপ চলার ক্ষেত্রে আমরা ফর লুপ ব্যাবহার করবো।
+
+
+// pr-1
+/* 
+
+Write a loop 1 to 200. Use break to exit the loop once you find 100.
+
+*/
+
+// for(i = 1; i <= 200; i++ ){
+//     if(i>100){
+//         break;
+//     }
+//     console.log(i);
+// }
+
+
+// Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
+
+
+// let i = 1;
+// let sum = 0;
+
+// while(i <= 200){
+//     sum = sum + i;
+//     if(sum > 100){
+//         break;
+//     }
+//     console.log(sum);
+//     i++;
+// }
+
+
+/* 
+Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)
+*/
+// let square = 0;
+// for(i=1; i <=100; i++){
+
+//     if( i * i === 16){
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+
+/* 
+Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
+*/
+
+// for(i = 1 ; i <= 40; i++){
+//     if(i % 2 === 1){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// display odd number from 55 to 85 and skip the numbers divisible by 5.
+
+
+// for(i = 55; i <= 85; i++){
+//     if( i % 2 === 1){
+//         if(i % 5 === 0){
+//             continue;
+//         }
+//         console.log(i);
+       
+//     }
+//     // console.log(i);
+// }
